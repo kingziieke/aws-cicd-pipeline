@@ -44,7 +44,7 @@ resource "aws_codebuild_project" "jz-tf-apply" {
   }
 }
 
-resource "aws_codepipeline" "jz_cicd_pipeline" {
+resource "aws_codepipeline" "jz-cicd_pipeline" {
 
   name     = "jz-tf-cicd"
   role_arn = aws_iam_role.jz-tf-codepipeline-role.arn
