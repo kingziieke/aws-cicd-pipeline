@@ -1,0 +1,1 @@
+codestar_connector_credentials = "arn:aws:codestar-connections:us-east-1:633864112910:connection/64d48b5d-07ee-4d6e-8fdf-dbe262d3a1e2"
