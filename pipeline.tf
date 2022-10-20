@@ -82,7 +82,7 @@ resource "aws_codepipeline" "jz-cicd_pipeline" {
       owner           = "AWS"
       input_artifacts = ["tf-code"]
       configuration = {
-        ProjectName = "jz-tf-plan"
+        ProjectName = "jz-tf-cicd-plan"
       }
     }
   }
